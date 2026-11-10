@@ -119,6 +119,7 @@ summary{padding:12px 16px;cursor:pointer;font-weight:500}
 details>div{padding:0 16px 16px}
 select{font:inherit;padding:9px 12px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);max-width:100%}
 .row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:14px}
+a.card{display:block;color:inherit;text-decoration:none}a.card:hover,a.card:focus-visible{border-color:var(--gold)}a.card h3{margin:4px 0 4px}
 footer{background:var(--dark);color:#cdbfae;padding-block:34px;font-size:13px}
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
 @media (max-width:760px){.planhead{grid-template-columns:1fr}.axis{margin-left:0}.rr{grid-template-columns:1fr}.rr .val{grid-column:1}.bar .brand{display:none}}
@@ -126,7 +127,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
 </style>
 
 <div class="bar bleed"><span class="brand">NAYISSORIA ADVISORY · 360</span>
-<nav id="nav"><a href="#status">Status</a><a href="#deliverables">Deliverables</a><a href="#menu">Menu</a><a href="#sop">SOP manual</a><a href="#capacity">Capacity</a><a href="#scenarios">Scenarios</a><a href="#equipment">Equipment</a><a href="#capex">CAPEX</a><a href="#foodcost">Food cost</a><a href="#pricing">Pricing</a><a href="#technical">Technical</a><a href="#operations">Operations</a><a href="#calendar">Calendar</a><a href="#downloads">Downloads</a><a href="#open">Open points</a><a href="#next">Next steps</a></nav>
+<nav id="nav"><a href="#home">Home</a><a href="#status">Status</a><a href="#menu">Menu</a><a href="#capacity">Capacity</a><a href="#scenarios">Scenarios</a><a href="#equipment">Equipment</a><a href="#capex">CAPEX</a><a href="#technical">Technical</a><a href="#foodcost">Food cost</a><a href="#pricing">Pricing</a><a href="#sop">SOP manual</a><a href="#operations">Operations</a><a href="#calendar">Calendar</a><a href="#open">Open points</a><a href="#next">Next steps</a><a href="#deliverables">Deliverables</a><a href="#downloads">Downloads</a></nav>
 <button id="th" type="button" aria-label="Toggle theme">Theme</button></div>
 
 <header class="hero bleed">
@@ -134,11 +135,38 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
 <div class="by">NAYISSORIA ADVISORY · 360</div>
 <h1>BTR French Toast Café</h1>
 <p class="lead">Final file, reference 360-BTR-2026-001: kitchen scenarios and layouts, equipment list and CAPEX, menu, recipes and food cost, technical requirements, operating framework and the illustrated SOP manual, in one place.</p>
+<div class="row" style="margin:6px 0 0"><a class="btn" href="#home">Open the file</a><a class="btn ghost" href="#deliverables" style="color:#fff;border-color:#d3b88f">Check against the proposal</a></div>
 <div class="meta"><div>Client<b>Anas</b></div><div>Final decision<b>Ahmed</b></div><div>Site<b>Al Manar, Riyadh</b></div><div>Unit<b>123.5 m²</b></div><div>Opening<b>February 2027</b></div><div>Volume<b>500 to 700 portions a day</b></div><div>Date<b>11 November 2026</b></div></div>
 </div>
 </header>
 
 <main>
+<section id="home"><div class="wrap">
+<header><div class="eyebrow">Welcome</div><h2>Your kitchen file, in one place</h2><p>This is the final file of the kitchen planning and F&amp;B consulting mission for BTR French Toast Café (reference 360-BTR-2026-001). It follows the seven steps of the proposal. Read it top to bottom, or jump to a section below. Every figure carries a status: locked, assumption or not validated.</p></header>
+<div class="grid g3 kf">
+<div class="card"><div class="big">3</div><p class="small">kitchen scenarios on 7 layout plans, from 39.9 to 60.5 m²</p></div>
+<div class="card"><div class="big">126k to 393k</div><p class="small">SAR of equipment CAPEX, depending on plan and price basis</p></div>
+<div class="card"><div class="big">12</div><p class="small">French toasts with cost, recommended price and an 86-page SOP manual</p></div></div>
+<h3 style="margin:30px 0 12px">Contents</h3>
+<div class="grid g3">
+<a class="card" href="#status"><span class="eyebrow">Step 1</span><h3>Where we stand</h3><p class="small">What is locked, assumed and open.</p></a>
+<a class="card" href="#menu"><span class="eyebrow">Step 1 and 5</span><h3>Menu</h3><p class="small">Twelve products, sweet and savoury.</p></a>
+<a class="card" href="#capacity"><span class="eyebrow">Step 1</span><h3>Production capacity</h3><p class="small">How the volumes size the machines.</p></a>
+<a class="card" href="#scenarios"><span class="eyebrow">Step 2</span><h3>Scenarios and layouts</h3><p class="small">Three scenarios, seven plans, the five kitchen limits.</p></a>
+<a class="card" href="#equipment"><span class="eyebrow">Step 3</span><h3>Equipment</h3><p class="small">The list plan by plan, with capacities.</p></a>
+<a class="card" href="#capex"><span class="eyebrow">Step 3</span><h3>CAPEX</h3><p class="small">Eight categories, low and high prices.</p></a>
+<a class="card" href="#technical"><span class="eyebrow">Step 4</span><h3>Technical requirements</h3><p class="small">Power, water, drainage, extraction, storage.</p></a>
+<a class="card" href="#foodcost"><span class="eyebrow">Step 5</span><h3>Food cost</h3><p class="small">What a day of production costs.</p></a>
+<a class="card" href="#pricing"><span class="eyebrow">Step 5</span><h3>Pricing and sourcing</h3><p class="small">Cost and recommended price per product, suppliers.</p></a>
+<a class="card" href="#sop"><span class="eyebrow">Step 5</span><h3>SOP manual</h3><p class="small">Recipes and procedures, page by page.</p></a>
+<a class="card" href="#operations"><span class="eyebrow">Step 6</span><h3>Operating framework</h3><p class="small">Receiving, storage, cleaning, HACCP sheets.</p></a>
+<a class="card" href="#calendar"><span class="eyebrow">Planning</span><h3>Calendar</h3><p class="small">Reverse planning to the opening.</p></a>
+<a class="card" href="#open"><span class="eyebrow">Step 7</span><h3>Open points</h3><p class="small">Decisions, hypotheses, changes.</p></a>
+<a class="card" href="#next"><span class="eyebrow">Step 7</span><h3>Next steps</h3><p class="small">What happens after this file.</p></a>
+<a class="card" href="#deliverables"><span class="eyebrow">Step 7</span><h3>Deliverables</h3><p class="small">The proposal, checked step by step.</p></a>
+<a class="card" href="#downloads"><span class="eyebrow">Files</span><h3>Downloads</h3><p class="small">Excel workbooks, layouts, questionnaire.</p></a></div>
+<p class="small" style="margin-top:16px">Plans are functional layouts, not execution drawings. Prices are references and estimates: no supplier quote has been received.</p>
+</div></section>
 <section id="status"><div class="wrap">
 <header><div class="eyebrow">Where we stand</div><h2>What is locked, what is assumed, what is open</h2><p>Every figure in this dossier carries one of three statuses. The scenario is not chosen yet, so all three scenarios are shown side by side.</p></div></header>
 <div class="grid g3">
@@ -165,8 +193,163 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
 <li>B2B brioche: no supplier, no specification, no price. None is invented.</li>
 <li>Site power, water, drainage and extraction: no survey yet.</li></ul></div>
 </div></div></section>
-
-
+<section id="menu"><div class="wrap">
+<header><div class="eyebrow">Concept and menu</div><h2>Twelve French Toasts, seven sweet and five savoury</h2><p>Every product has its own assembly sheet in the SOP manual. Tap a product to open it. Weights are before losses: one 80 g brioche slice plus 40 g of absorbed batter makes a 120 g base.</p></header>
+<div class="menu" id="dishes"></div>
+</div></section>
+<section id="capacity"><div class="wrap">
+<header><div class="eyebrow">Production capacity</div><h2>How the volumes size the machines</h2><p>One brioche gives 12 portions. The volume steps below include the 5 % reserve and use the locked machine capacities.</p></header>
+<div class="tablebox"><table><thead><tr><th>Sales</th><th class="n">Portions with reserve</th><th class="n">Brioches</th><th class="n">Dough</th><th>Kneads (30 kg mixer)</th><th class="n">Oven batches (24 moulds)</th><th>Moulds in cycle</th></tr></thead><tbody>
+<tr><td>100</td><td class="n">105</td><td class="n">9</td><td class="n">9.6 kg</td><td>1 × 9.6 kg (32 %)</td><td class="n">1</td><td>9</td></tr>
+<tr><td>250</td><td class="n">263</td><td class="n">22</td><td class="n">23.5 kg</td><td>1 × 23.5 kg (78 %)</td><td class="n">1</td><td>22</td></tr>
+<tr><td>500</td><td class="n">525</td><td class="n">44</td><td class="n">46.95 kg</td><td>2 × 23.5 kg (78 %)</td><td class="n">2</td><td>44</td></tr>
+<tr><td>700</td><td class="n">735</td><td class="n">62</td><td class="n">66.16 kg</td><td>3 × 22.05 kg (73 %)</td><td class="n">3</td><td>62 (60 in the proofer, 2 on the second cycle)</td></tr></tbody></table></div>
+<p class="small" style="margin-top:10px">Step 5 first sized the mixer at 25 kg per knead; the client then chose 30 kg. The number of kneads does not change (3 at peak, 2 at 500 sales) and the load at peak drops from 88 % to 73 %. No effect on the CAPEX.</p>
+<h3 style="margin:34px 0 14px">Consistency checks</h3>
+<div class="tablebox"><table><thead><tr><th>Element</th><th>Value retained</th><th>Source or calculation</th><th>Result</th></tr></thead><tbody id="coh"></tbody></table></div>
+</div></section>
+<section id="scenarios"><div class="wrap">
+<header><div class="eyebrow">Scenarios</div><h2>Three ways to run the kitchen, seven layout plans</h2><p>A is pure B2B (brioche bought ready-made). B is fully home-made. C is a hybrid. Choose a plan to see its layout and its cost range. The CAPEX is for equipment only.</p></header>
+<div class="grid g3" style="margin-bottom:26px">
+<div class="card"><span class="tag t-w">Scenario A</span><h3>Pure B2B</h3><p class="small">Plan 6, 39.9 m², with or without a mini cold room. Brioche bought frozen; slicing, soaking, cooking and plating on site.</p></div>
+<div class="card"><span class="tag t-w">Scenario B</span><h3>100 % home-made</h3><p class="small">Plans 1 to 4, 44.9 to 60.5 m². The reference for the technical calculation: mixer, proofer, oven and moulds.</p></div>
+<div class="card"><span class="tag t-w">Scenario C</span><h3>Hybrid</h3><p class="small">Plan 5, 46.6 m².</p></div>
+</div>
+<div class="ov" id="ov"><div class="eyebrow">One layout, all scenarios</div><h3 style="margin:4px 0 6px">The five kitchen limits on the architect's original plan</h3><p class="small" style="margin-bottom:12px">Each coloured line is the boundary between the kitchen (above) and the dining room (below). The central wall is removed in every case. Pick a limit to see it alone, or show all five. No equipment is drawn here: this view is about space only.</p><div class="chips" id="ovchips"></div><div class="planhead"><div class="fig"><svg id="ovsvg" viewBox="0 120 1720 1470" role="img" aria-label="The five kitchen depth limits drawn on the original plan"></svg></div><div class="card" id="ovinfo"></div></div><div class="tw" style="margin-top:14px"><table id="ovtab"><thead><tr><th>Line</th><th>Concept</th><th class="n">Gross area</th><th class="n">Depth</th><th class="n">Left for the hall</th><th>Alcove returned to the hall</th><th>What it allows</th></tr></thead><tbody></tbody></table></div><p class="small" style="margin-top:10px">Total unit area: 123.5 m². "Left for the hall" is that area minus the kitchen, alcove included. At 5.00 m and 5.17 m, a straight wall extends the side wall at 107 cm and the small left alcove stays in the hall. At 5.62 m and 6.50 m the alcove is used by the kitchen: the freezer room extends into it, 107 cm wide.</p></div>
+<div class="chips" id="planchips"></div>
+<div id="planpanel"></div>
+</div></section>
+<section id="equipment"><div class="wrap">
+<header><div class="eyebrow">Equipment</div><h2>The equipment list, plan by plan</h2><p>Pick a plan and a price basis. Low prices come from the reference library and KSA suppliers; high prices from European suppliers. The reliability level tells how far each price can be trusted.</p></header>
+<div class="row"><label for="eqplan" class="small">Plan</label><select id="eqplan"></select><div class="chips" style="margin:0" id="eqbasis"></div></div>
+<div class="ld" id="legend"></div>
+<div class="tablebox"><table><thead><tr><th>Item</th><th class="n">Qty</th><th class="n">Unit (SAR)</th><th class="n">Total (SAR)</th><th>Level</th></tr></thead><tbody id="eqbody"></tbody></table></div>
+</div></section>
+<section id="capex"><div class="wrap">
+<header><div class="eyebrow">CAPEX in eight categories</div><h2>From about 126,000 to 393,000 SAR, depending on the plan and the price basis</h2><p>All amounts are in SAR excluding VAT, for equipment only. The range runs from low prices (dark bar) to high prices (red extension). No quote has been received.</p></header>
+<div class="range" id="range"></div>
+<div class="axis"><span>0</span><span>100k</span><span>200k</span><span>300k</span><span>400k</span></div>
+<h3 style="margin:38px 0 14px">Low-price CAPEX by category</h3>
+<div class="tablebox"><table id="cattable"></table></div>
+<h3 style="margin:38px 0 14px">How much of each total is backed by a quote or a source</h3>
+<p class="small" style="margin-bottom:12px">Share of the low-price total that rests on an estimate (level C) or on no source (level D). The rest rests on an identified price or a supplier web price.</p>
+<div id="rel" class="range"></div>
+<h3 style="margin:38px 0 14px">What moves the total</h3>
+<div class="tablebox"><table><thead><tr><th>Item</th><th>Retained</th><th>Possible variation</th><th>Effect</th></tr></thead><tbody id="sens"></tbody></table></div>
+<h3 style="margin:38px 0 14px">Scenario A: what depends on the B2B scope</h3>
+<div class="tablebox"><table><tbody id="b2b"></tbody></table></div>
+<h3 style="margin:38px 0 14px">Not in the CAPEX</h3>
+<div class="tablebox"><table><thead><tr><th>Cost</th><th>Content</th><th>Treatment</th></tr></thead><tbody id="out"></tbody></table></div>
+</div></section>
+<section id="technical"><div class="wrap">
+<header><div class="eyebrow">Technical requirements</div><h2>What the designer needs for power, water, drainage and extraction</h2><p>Indicative values for the equipment on each plan. Figures marked as from the operator's own MEP schedule use real manufacturer data (Bongard); the others are estimates. Every value must be confirmed on the supplier's data sheet.</p></header>
+<div class="tablebox"><table><thead><tr><th>Plan</th><th class="n">Connected load</th><th class="n">of which 3-phase</th><th class="n">Likely demand (60 to 70 %)</th><th class="n">Water points</th></tr></thead><tbody>
+<tr><td>Plan 6 · B2B</td><td class="n">≈ 30 kW</td><td class="n">≈ 17 kW</td><td class="n">18 to 21 kW</td><td class="n">4</td></tr>
+<tr><td>Plan 6 · with mini cold room</td><td class="n">≈ 34 kW</td><td class="n">≈ 21 kW</td><td class="n">20 to 23 kW</td><td class="n">4</td></tr>
+<tr><td>Plan 1 · home-made</td><td class="n">≈ 58 kW</td><td class="n">≈ 40 kW</td><td class="n">35 to 40 kW</td><td class="n">6</td></tr>
+<tr><td>Plan 2 · home-made</td><td class="n">≈ 58 kW</td><td class="n">≈ 40 kW</td><td class="n">35 to 40 kW</td><td class="n">6</td></tr>
+<tr><td>Plan 3 · home-made</td><td class="n">≈ 61 kW</td><td class="n">≈ 44 kW</td><td class="n">36 to 42 kW</td><td class="n">6</td></tr>
+<tr><td>Plan 4 · home-made</td><td class="n">≈ 66 kW</td><td class="n">≈ 49 kW</td><td class="n">39 to 46 kW</td><td class="n">6</td></tr>
+<tr><td>Plan 5 · hybrid</td><td class="n">≈ 53 kW</td><td class="n">≈ 40 kW</td><td class="n">32 to 37 kW</td><td class="n">6</td></tr></tbody></table></div>
+<p class="small" style="margin:10px 0 22px">Equipment only. Not counted: hood and make-up air fans, air conditioning, lighting, the bar. Connection and extraction costs stay outside the CAPEX.</p>
+<div class="grid g2">
+<div class="card"><h3>Heavy loads (operator's MEP schedule)</h3><ul><li>Convection oven Krystal+ 46.9: 18.6 kW, 3-phase; water 1/2"; drain 3"</li><li>Hood-type dishwasher: 11.9 kW, 3-phase</li><li>Proofer: 1.3 kW, single-phase; water 3/8"; drain 3"</li><li>Spiral mixer for 30 kg of dough: about 2.6 kW, 3-phase (model not locked)</li><li>Cold-room condensate drain: 2"</li></ul></div>
+<div class="card"><h3>Water, drainage, extraction</h3><ul><li>Hot water at 60 °C minimum for the dishwasher; a commercial water heater</li><li>4 water points in B2B; 6 with the oven and the proofer</li><li>Floor drains and a grease trap, which is mandatory</li><li>A hood over the cooking line and one over the dishwasher; for the oven, a hood that is excluded from the current price</li></ul></div>
+<div class="card"><h3>Open choices</h3><ul><li>Electric plancha retained as the base (counted at 5 kW). The client may switch to gas later: Civil Defence rules apply (cylinders outside, gas valve linked to the extraction) and the electrical load drops.</li><li>Voltage: the schedule lists 400 V and 230 V. Saudi supply is 60 Hz, so the supplier's matching version must be specified.</li><li>Check the supply capacity with the electricity company early: a new supply can add 4 to 8 weeks.</li></ul></div>
+<div class="card"><h3>Storage sizing</h3><p class="small" style="margin-bottom:10px">Rule in the SOP manual: two peak days of frozen brioche, 124 loaves of 3 L each.</p><ul><li>1 day (62 loaves): 370 to 470 L, a 1-door freezer</li><li>2 days (124): 740 to 930 L, a 2-door freezer</li><li>3 days (186): 1,100 to 1,400 L, a full 2-door freezer or a walk-in freezer</li><li>Fresh dairy and eggs: about 56 kg a day at 700; two days fit one 1-door refrigerator</li></ul><p class="small" style="margin-top:10px">This matches the plans: Plan 1 one day, Plans 2 and 5 two days, Plans 3 and 4 three days or more. Cabinet volumes are catalogue orders of magnitude.</p></div></div>
+</div></section>
+<section id="foodcost"><div class="wrap">
+<header><div class="eyebrow">Food cost</div><h2>What a day of production costs in ingredients</h2><p>Taken from the Step 6 workbook, unchanged. Amounts are in SAR excluding VAT.</p></header>
+<div class="tablebox"><table><thead><tr><th>Daily sales</th><th class="n">Ingredient cost per day</th><th class="n">Brioches</th></tr></thead><tbody>
+<tr><td>100</td><td class="n">621.15</td><td class="n">9</td></tr><tr><td>250</td><td class="n">1,555.83</td><td class="n">22</td></tr><tr><td>500</td><td class="n">3,105.74</td><td class="n">44</td></tr><tr><td>700</td><td class="n">4,352.40</td><td class="n">62</td></tr></tbody></table></div>
+<div class="grid g3" style="margin-top:18px">
+<div class="card"><div class="big">5.92</div><p class="small">SAR of ingredients per portion produced. 4,352.40 ÷ 735 portions made at 700 sales, reserve included. A cost, not a price.</p></div>
+<div class="card"><div class="big">6.21 to 6.22</div><p class="small">SAR of ingredients per portion sold. 4,352.40 ÷ 700 portions sold. The unsold reserve is also a cost. A cost, not a price.</p></div>
+<div class="card"><div class="big">0.8743</div><p class="small">SAR for the brioche slice alone, inside every portion. The sauces and toppings come on top. Not a margin.</p></div></div>
+<p class="small" style="margin-top:12px">The Step 6 workbook uses a 60/40 sales mix; the procedures in Step 3 use 50/50. Both are kept, each in its own scope. This covers scenario B. The B2B brioche price is unknown, so scenarios A and C have no cost per slice yet.</p>
+</div></section>
+<section id="pricing"><div class="wrap">
+<header><div class="eyebrow">Pricing and sourcing</div><h2>Selling prices, daily ingredients and who to ask</h2><p>Recommended prices come from the Step 6 workbook and are not market-tested. B2B prices are not set: the B2B brioche price is still unknown. Everything here covers the French toast only: beverages are outside the mission and handled by the client. In the consultant's operating experience, beverages usually add about 40 to 45 % on top of food sales; this is an experience figure, not a forecast.</p></header>
+<h3 style="margin-bottom:10px">Cost and recommended price of the 12 products</h3>
+<div class="tablebox"><table><thead><tr><th>Product</th><th>Type</th><th class="n">Ingredient cost</th><th class="n">Price incl. VAT</th><th class="n">Price excl. VAT</th><th class="n">Food cost</th><th class="n">Ingredient margin</th></tr></thead><tbody><tr><td>Salted Caramel</td><td>Sweet</td><td class="n">2.68</td><td class="n">25</td><td class="n">21.74</td><td class="n">12.3 %</td><td class="n">19.06</td></tr><tr><td>Red Berries</td><td>Sweet</td><td class="n">9.30</td><td class="n">40</td><td class="n">34.78</td><td class="n">26.7 %</td><td class="n">25.48</td></tr><tr><td>Pistachio</td><td>Sweet</td><td class="n">7.23</td><td class="n">35</td><td class="n">30.43</td><td class="n">23.8 %</td><td class="n">23.20</td></tr><tr><td>Chocolate Hazelnut</td><td>Sweet</td><td class="n">6.62</td><td class="n">35</td><td class="n">30.43</td><td class="n">21.8 %</td><td class="n">23.81</td></tr><tr><td>Cinnamon</td><td>Sweet</td><td class="n">4.89</td><td class="n">25</td><td class="n">21.74</td><td class="n">22.5 %</td><td class="n">16.85</td></tr><tr><td>Avocado &amp; Egg</td><td>Savoury</td><td class="n">5.25</td><td class="n">30</td><td class="n">26.09</td><td class="n">20.1 %</td><td class="n">20.84</td></tr><tr><td>Chicken &amp; Cheese</td><td>Savoury</td><td class="n">5.11</td><td class="n">30</td><td class="n">26.09</td><td class="n">19.6 %</td><td class="n">20.98</td></tr><tr><td>Mushroom &amp; Cheese</td><td>Savoury</td><td class="n">7.59</td><td class="n">35</td><td class="n">30.43</td><td class="n">24.9 %</td><td class="n">22.85</td></tr><tr><td>Shakshuka</td><td>Savoury</td><td class="n">6.61</td><td class="n">30</td><td class="n">26.09</td><td class="n">25.3 %</td><td class="n">19.47</td></tr><tr><td>Turkey &amp; Cheese</td><td>Savoury</td><td class="n">5.28</td><td class="n">30</td><td class="n">26.09</td><td class="n">20.2 %</td><td class="n">20.81</td></tr><tr><td>Saudi Dates &amp; Tahini</td><td>Sweet</td><td class="n">5.17</td><td class="n">30</td><td class="n">26.09</td><td class="n">19.8 %</td><td class="n">20.91</td></tr><tr><td>Saudi Coffee &amp; Cardamom</td><td>Sweet</td><td class="n">5.21</td><td class="n">30</td><td class="n">26.09</td><td class="n">20.0 %</td><td class="n">20.87</td></tr><tr><td><b>Average, weighted by the 500-portion mix</b></td><td></td><td class="n"><b>5.91</b></td><td class="n"><b>31.26</b></td><td class="n"><b>27.18</b></td><td class="n"><b>21.7 %</b></td><td class="n"><b>21.27</b></td></tr></tbody></table></div>
+<p class="small" style="margin:10px 0 26px">From the Step 6 workbook (V6.1). Food cost = ingredient cost ÷ price excl. VAT (VAT 15 %). Prices are recommended and indicative; the final decision is the client's. Ingredient margin only: packaging, wages, rent, energy and service losses are not counted. Several prices are public retail prices converted to excl. VAT, so supplier quotes will move the figures. At the weighted average the food cost is 21.7 %, just above the 20 % B2C standard; Red Berries (26.7 %), Shakshuka (25.3 %), Mushroom &amp; Cheese (24.9 %) and Pistachio (23.8 %) are the highest. All amounts in SAR.</p>
+<h3 style="margin-bottom:10px">Cross-check: what a target food cost would give</h3>
+<div class="tablebox"><table><thead><tr><th>Target food cost</th><th class="n">Price excl. VAT</th><th class="n">Price incl. VAT (15 %)</th></tr></thead><tbody>
+<tr><td>20 %</td><td class="n">31.05</td><td class="n">35.71</td></tr><tr><td>25 %</td><td class="n">24.84</td><td class="n">28.57</td></tr><tr><td>30 %</td><td class="n">20.70</td><td class="n">23.81</td></tr></tbody></table></div>
+<p class="small" style="margin:10px 0 26px">Average portion: 6.21 SAR of ingredients per portion sold. The B2B price is not set: the B2B brioche price is still unknown, so no B2B selling price is shown.</p>
+<h3 style="margin-bottom:10px">Ingredients per day at 700 sales</h3>
+<div class="tablebox"><table><thead><tr><th>Ingredient</th><th class="n">Brioche (62 loaves)</th><th class="n">Sweet batter (maximum)</th><th class="n">Total per day</th></tr></thead><tbody>
+<tr><td>T55 flour</td><td class="n">33.3 kg</td><td class="n">–</td><td class="n">33.3 kg</td></tr>
+<tr><td>Whole milk</td><td class="n">10.0 kg</td><td class="n">14.7 kg</td><td class="n">24.7 kg</td></tr>
+<tr><td>Whole eggs</td><td class="n">10.0 kg</td><td class="n">7.35 kg</td><td class="n">17.3 kg (about 315 eggs)</td></tr>
+<tr><td>Butter</td><td class="n">8.3 kg</td><td class="n">–</td><td class="n">8.3 kg</td></tr>
+<tr><td>Cream 35 %</td><td class="n">–</td><td class="n">5.9 kg</td><td class="n">5.9 kg</td></tr>
+<tr><td>Sugar</td><td class="n">3.3 kg</td><td class="n">1.3 kg</td><td class="n">4.7 kg</td></tr></tbody></table></div>
+<p class="small" style="margin:10px 0 26px">From the brioche formula (page 7) and the universal sweet batter (page 12). The sweet batter column assumes all 735 portions are sweet, so it is an upper bound; with the 60/40 mix it is lower. Toppings, sauces and savoury items are not included. In the typical week (500 on weekdays, 700 at weekends) the flour is about 185 kg, 7 to 8 bags of 25 kg.</p>
+<h3 style="margin:30px 0 10px">Supplier contacts in Riyadh</h3>
+<div class="tablebox"><table><thead><tr><th>Supplier</th><th>Products and equipment</th><th>Phone / WhatsApp</th><th>E-mail</th><th>Site</th></tr></thead><tbody><tr><td><b>Food Choice KSA</b></td><td>Ingredients: T55 flour, unsalted butter, Candia cream, cheddar, mozzarella, chicken, smoked turkey, raspberries and raspberry purée</td><td>+966 11 473 8022; WhatsApp +966 55 985 8257</td><td><a href="mailto:support@foodchoice-ksa.com">support@foodchoice-ksa.com</a></td><td><a href="https://foodchoice-ksa.com/contact/" target="_blank" rel="noopener">website</a></td></tr><tr><td><b>Freshvery</b></td><td>Ingredients: fresh fruit, vegetables and herbs (avocados, lemons, onions, peppers, parsley), tomato paste, brown sugar</td><td>+966 55 066 0665</td><td><a href="mailto:freshvery@freshvery.com">freshvery@freshvery.com</a></td><td><a href="https://freshvery.com/contact" target="_blank" rel="noopener">website</a></td></tr><tr><td><b>Orient Provision (OPTC)</b></td><td>Ingredients: spices and dry goods (cinnamon, garlic powder, cumin, sweet paprika, black pepper, Freshly olive oil)</td><td>+966 920 003 250</td><td><a href="mailto:info@optcl.net">info@optcl.net</a></td><td><a href="https://optcl.net/contact-us/" target="_blank" rel="noopener">website</a></td></tr><tr><td><b>Bidfood KSA</b></td><td>Ingredients: Valrhona couverture chocolate, including Jivara milk and Opalys white</td><td>+966 920 023 663</td><td><a href="mailto:marketing.ksa@bidfoodme.com">marketing.ksa@bidfoodme.com</a></td><td><a href="https://www.bidfoodme.com/get-in-touch" target="_blank" rel="noopener">website</a></td></tr><tr><td><b>Bano Puratos KSA</b></td><td>Ingredients: bakery and pastry ingredients, including Foger Vanilla Plus flavouring</td><td>+966 920 018 448</td><td><a href="mailto:mramzi@banopuratos.com">mramzi@banopuratos.com</a></td><td><a href="https://ksa.banopuratos.com/contactus" target="_blank" rel="noopener">website</a></td></tr><tr><td><b>Mawaduna</b></td><td>Ingredients: pastry ingredients, including glazing pectin and Delipaste hazelnut and pistachio flavour pastes</td><td>+966 11 478 7288; +966 54 033 2488</td><td><a href="mailto:info@mawaduna.com">info@mawaduna.com</a></td><td><a href="https://mawaduna.com/contact/" target="_blank" rel="noopener">website</a></td></tr><tr><td><b>AWANI HORECA</b></td><td>Equipment: pizzeria and snack equipment (refrigerated table, marble table, cooking plate, peels, dough and GN bins, crêpe maker, waffle maker, hot chocolate machine)</td><td>050 511 8615</td><td>–</td><td>–</td></tr><tr><td><b>Nardi</b></td><td>Equipment</td><td>055 656 9618</td><td>–</td><td>–</td></tr><tr><td><b>Antachco</b></td><td>Packaging</td><td>053 242 5789</td><td>–</td><td>–</td></tr><tr><td><b>Futur &amp; Present</b></td><td>Boxes and packaging</td><td>050 059 2579</td><td>–</td><td>–</td></tr><tr><td><b>Al Raqtan Company</b></td><td>Equipment, named by the client in the questionnaire</td><td>–</td><td>–</td><td>–</td></tr><tr><td><b>Kawader Al Jazeera Company</b></td><td>Equipment, named by the client in the questionnaire</td><td>–</td><td>–</td><td>–</td></tr></tbody></table></div>
+<p class="small" style="margin:10px 0 22px">Contacts only, supplied by the consultant. Price lists, quotes and negotiation are for the client to obtain. The Excel version is in Downloads.</p>
+<div class="grid g2">
+<div class="card"><h3>Supplier categories to consult</h3><ul><li>Mill: T55 flour</li><li>Dairy: milk, cream, butter</li><li>Eggs, including pasteurised liquid eggs for the poached egg</li><li>Sugar, vanilla, improver (confirm soy)</li><li>Packaging: kraft boxes, sealed bags, sauce pots</li><li>Frozen brioche, for scenarios A and C</li><li>Equipment named by the client: Al Raqtan Company and Kawader Al Jazeera Company (no quote yet)</li></ul><p class="small" style="margin-top:12px">Names, quotes and delivery terms are collected with the client.</p></div>
+<div class="card"><h3>Competitors to benchmark</h3><ul><li><a href="https://www.factmagazines.com/saudi-arabia/riyadh/food/londons-french-toast-cafe-crome-is-opening-in-riyadh-park-mall" target="_blank" rel="noopener">Crome London</a>, French toast café, Riyadh Park Mall</li><li><a href="https://www.factmagazines.com/saudi-arabia/riyadh-saudi-arabia/food-riyadh-saudi-arabia/french-toast-in-riyadh-inside-the-new-all-day-breakfast-restaurant" target="_blank" rel="noopener">French Toast &amp; Co</a>, An Nada</li></ul><p class="small" style="margin-top:12px">No prices are published for either. Their menus and prices must be collected on site or on the delivery apps. Nothing is assumed here.</p></div></div>
+</div></section>
+<section id="sop"><div class="wrap">
+<header><div class="eyebrow">SOP manual</div><h2>The illustrated procedures, page by page</h2><p>86 pages: brioche, batters, sauces and creams, savoury preparations, assembly sheets, storage and controls, and the source annexes in French. Images are reference illustrations, not photos of real trials. Times, temperatures, yields and shelf lives remain to be validated in trials and in the site's HACCP plan.</p></header>
+<div class="chips" id="sopchips"></div>
+<div class="pages" id="sopgrid"></div>
+<div class="row" style="margin-top:22px"><a class="btn ghost" href="https://claude.ai/artifact/Rv7dEYtLaz15A8GpPTAAVD" target="_blank" rel="noopener">Open the standalone manual and its PDF</a></div>
+</div></section>
+<section id="operations"><div class="wrap">
+<header><div class="eyebrow">Operating framework</div><h2>Receiving, storage, cleaning, stock, waste, food safety</h2><p>This completes the SOP manual, which covers production and key controls. Temperatures reuse the manual's key-controls page and remain proposals to validate in the site's HACCP plan. The exact local rules (Balady, SFDA) must be checked against the official texts.</p></header>
+<details open><summary>Receiving</summary><div><ul><li>Deliveries outside service hours; check the vehicle, the packaging and the dates.</li><li>Probe temperature: chilled up to 5 °C, frozen −18 °C or colder (proposed). Refuse anything thawed, damaged or out of date.</li><li>Frozen brioche (scenarios A and C): checked at every delivery, which is every second day.</li></ul></div></details>
+<details><summary>Storage and traceability</summary><div><ul><li>First in, first out. Label: product, batch, manufacture date, use-by date, allergens, operator.</li><li>Batters, creams and sensitive sauces at 4 °C or below; frozen at −18 °C or below.</li><li>Record the refrigerator temperature at every service opening.</li></ul></div></details>
+<details><summary>Cleaning and sanitation</summary><div><ul><li>A written plan per zone: frequency, product, dilution, person responsible.</li><li>Clean, rinse, disinfect, rinse. Colour-coded cloths. Signed visual check at the end of service.</li><li>Hood and grease filters on a fixed cleaning schedule.</li></ul></div></details>
+<details><summary>Stock management</summary><div><ul><li>Daily count of sensitive items (eggs, milk, cream, butter); weekly for dry goods.</li><li>A reorder threshold per product. Orders based on the next day's volume plus the 5 % reserve already locked.</li></ul></div></details>
+<details><summary>Waste</summary><div><ul><li>Sort organic waste, packaging and used oil. Pedal bins are already in the CAPEX.</li><li>Remove waste at the end of each service. Weigh losses if actual food cost is to be tracked.</li></ul></div></details>
+<details><summary>Food safety and HACCP</summary><div><ul><li>French toast core at 74 °C or above. Hot holding at 63 °C or above. Batter tray changed every 2 hours.</li><li>Cooked preparations cooled to 10 °C or below within 2 hours, then 4 °C or below.</li><li>Poached egg with a runny yolk: pasteurised eggs, to be validated in the HACCP plan before opening.</li><li>No shelf life is validated yet. Each must come from a trial, including freezing and thawing.</li></ul></div></details>
+<details><summary>Staff and health certificates</summary><div><ul><li>A health certificate and a food-safety course accredited by the SFDA for every employee.</li><li>Clean uniform, hand washing, gloves changed between products.</li></ul></div></details>
+<details><summary>Allergens and menu labelling</summary><div><ul><li>Since July 2025 the SFDA requires menus to show calories, fat, sugar, sodium, caffeine and 14 allergens.</li><li>The brioche formula declares gluten, milk and eggs. Soy in the improver is still to be confirmed with the supplier.</li></ul></div></details>
+<h3 style="margin:30px 0 10px">HACCP control sheets</h3>
+<div class="tablebox"><table><thead><tr><th>Step</th><th>Hazard</th><th>Critical limit (proposed)</th><th>Monitoring</th><th>Corrective action</th><th>Record</th></tr></thead><tbody><tr><td>Receiving: chilled goods</td><td>Growth of bacteria if the cold chain is broken</td><td>Chilled ≤ 5 °C at the core; sound packaging; in date</td><td>Probe every delivery, check date and vehicle</td><td>Refuse or quarantine the goods; call the supplier</td><td>Receiving log</td></tr><tr><td>Receiving: frozen goods (brioche, scenarios A and C)</td><td>Thawing and refreezing</td><td>Frozen ≤ −18 °C; no ice crystals or thaw marks</td><td>Probe every delivery (every second day)</td><td>Refuse if thawed; never refreeze</td><td>Receiving log</td></tr><tr><td>Cold storage</td><td>Bacterial growth in eggs, milk, cream, batter</td><td>Fridge ≤ 4 °C</td><td>Read at opening, mid-service and closing</td><td>Move goods to another unit; discard if above 4 °C for over 2 h; call maintenance</td><td>Temperature log</td></tr><tr><td>Frozen storage</td><td>Quality loss, thaw cycles</td><td>Freezer ≤ −18 °C</td><td>Read at opening and closing</td><td>Check door and defrost; call maintenance; assess goods</td><td>Temperature log</td></tr><tr><td>Sweet batter</td><td>Bacteria in the milk, egg and cream mix</td><td>Batter ≤ 4 °C; tray changed every 2 h</td><td>Probe at preparation and at each tray change</td><td>Discard batter above 4 °C for over 2 h or older than the limit</td><td>Batter log</td></tr><tr><td>Cooking on the plancha</td><td>Survival of bacteria in egg-based product</td><td>Core ≥ 74 °C</td><td>Probe one slice per batch</td><td>Continue cooking, re-probe; discard if the core cannot reach 74 °C</td><td>Cooking log</td></tr><tr><td>Hot holding</td><td>Growth in cooked product</td><td>≥ 63 °C</td><td>Probe every hour</td><td>Reheat to 74 °C once, or discard after the holding time limit</td><td>Hot-holding log</td></tr><tr><td>Cooling of cooked preparations (sauces, toppings)</td><td>Growth during slow cooling</td><td>≤ 10 °C within 2 h, then ≤ 4 °C</td><td>Probe at 2 h and at storage</td><td>Discard if 10 °C not reached within 2 h</td><td>Cooling log</td></tr><tr><td>Poached egg with runny yolk</td><td>Salmonella</td><td>Pasteurised eggs only</td><td>Check the label at receiving</td><td>Use fully cooked egg or discard</td><td>Receiving log</td></tr><tr><td>Allergens</td><td>Cross-contact; wrong information to the guest</td><td>Gluten, milk, eggs declared; soy to be confirmed with the improver supplier</td><td>Check labels at receiving; separate utensils and cloths</td><td>Stop service of the item; correct the menu</td><td>Allergen matrix</td></tr><tr><td>Cleaning and disinfection</td><td>Residual contamination</td><td>Written plan followed; surfaces visibly clean</td><td>Signed check at the end of service</td><td>Re-clean; retrain</td><td>Cleaning log</td></tr><tr><td>Personnel hygiene</td><td>Contamination by hands and clothes</td><td>Health certificate valid; hand washing; clean uniform</td><td>Daily visual check by the shift lead</td><td>Send home if ill; retrain</td><td>Staff file</td></tr></tbody></table></div>
+<p class="small" style="margin:10px 0 0">Proposals taken from the SOP manual key controls. The blank logs (receiving, temperature, cooking, cooling, cleaning, maintenance, waste, stock) are in the downloadable operations workbook, <a href="#downloads">see Downloads</a>.</p>
+<p class="small" style="margin-top:14px">Sources: <a href="https://www.foodics.com/calorie-counts-on-menus-new-sfda-regulations-for-restaurants/" target="_blank" rel="noopener">Foodics, SFDA menu rules</a>; <a href="https://www.foodics.com/a-complete-guide-to-restaurant-licenses-permits-in-saudi-arabia/" target="_blank" rel="noopener">Foodics, restaurant licences</a>; <a href="https://daranan.pages.dev/blog/restaurant-mep-requirements-riyadh/" target="_blank" rel="noopener">Riyadh restaurant MEP requirements</a>.</p>
+</div></section>
+<section id="calendar"><div class="wrap">
+<header><div class="eyebrow">Calendar</div><h2>Reverse planning to a mid-February 2027 opening</h2><p>The dossier is handed over on 11 November 2026, so the plan starts from decisions, not from study steps. Weeks start on Sunday. Opening is set on Sunday 14 February 2027. The client target in the questionnaire is 1 February; this plan reaches 14 February. To open on 1 February, the scenario would have to be chosen within days and the equipment ordered by about 30 November with a lead time of 6 weeks or less. This is a planning assumption, not a guarantee: durations outside the mission (permits, works, hiring, training) are not controlled by NAYISSORIA ADVISORY.</p></header>
+<div class="chips" id="gtchips"></div>
+<div class="tablebox"><div id="gt" class="gt"></div></div>
+<div class="gtleg"><span><i style="background:#a8232c;outline:2px solid #a8232c;outline-offset:1px"></i>Critical path</span><span><i style="background:#888;opacity:.6"></i>Hatched: assumption to confirm</span></div>
+<div class="grid g3" style="margin-top:8px">
+<div class="card"><h3>Critical path</h3><ul><li>Scenario choice by 26 November</li><li>Equipment order by 3 December</li><li>Electrical supply confirmed early</li></ul></div>
+<div class="card"><h3>Why it is tight</h3><p class="small">Equipment lead time is assumed at 6 to 8 weeks and is not confirmed. If it exceeds 8 weeks, the installation moves past January and February becomes hard.</p></div>
+<div class="card"><h3>Gains compared with the proposal</h3><p class="small">The study is finished, so the 6 to 8 weeks of mission no longer sit on the critical path. Decisions and orders start in week 1.</p></div></div>
+</div></section>
+<section id="open"><div class="wrap">
+<header><div class="eyebrow">Open points</div><h2>What still blocks, and what does not</h2></header>
+<h3 style="margin-bottom:14px">Blocking decisions</h3>
+<div class="grid g3" id="bloq"></div>
+<h3 style="margin:34px 0 14px">Not blocking</h3>
+<div class="card"><ul id="nonbloq"></ul></div>
+<h3 style="margin:34px 0 14px">Hypotheses register</h3>
+<div class="tablebox"><table><thead><tr><th>No.</th><th>Hypothesis</th><th>Source</th><th>If wrong</th></tr></thead><tbody id="hyp"></tbody></table></div>
+<h3 style="margin:34px 0 14px">What changed against the first study</h3>
+<div class="tablebox"><table><thead><tr><th>Item</th><th>Before</th><th>Now</th><th>Effect</th></tr></thead><tbody id="chg"></tbody></table></div>
+<h3 style="margin:34px 0 14px">Notes on the source documents</h3>
+<div class="tablebox"><table><thead><tr><th>Point</th><th>Where</th><th>Treatment</th></tr></thead><tbody id="flags"></tbody></table></div>
+</div></section>
+<section id="next"><div class="wrap">
+<header><div class="eyebrow">Next steps</div><h2>What happens after this dossier</h2></header>
+<ol style="display:grid;gap:10px;padding-left:20px;max-width:46em;margin:0 0 30px">
+<li>Choose the scenario (A, B or C) and the kitchen and dining layout, by 26 November. Anas and Ahmed.</li>
+<li>Survey the site: power, three-phase, water, drainage, extraction duct. Check the electricity supply capacity at once.</li>
+<li>Consult suppliers for the B2B brioche: specification, price, delivery. Needed to compare A and C with B.</li>
+<li>Request quotes for the mixer, proofer, oven hood, cold rooms and the other level C and D items, and place the orders by 3 December.</li>
+<li>Run the trials already planned: slicer thickness on a Pullman loaf, tray and mould fit in the proofer, shelf life, freezing and thawing.</li>
+<li>Follow the calendar above to a 14 February 2027 opening.</li></ol>
+<div class="row"><button class="btn" id="dlx" type="button">Download the CAPEX workbook (Excel)</button><a class="btn ghost" href="https://claude.ai/artifact/Rv7dEYtLaz15A8GpPTAAVD" target="_blank" rel="noopener">Open the SOP manual and its PDF</a></div>
+<p class="small" id="dlmsg" role="status"></p>
+<p class="small" style="margin-top:6px">The workbook holds the lines for every plan at low and high prices, with formulas, the B2B conditional equipment, the costs outside the CAPEX, the hypotheses and a checks sheet. It is separate from the Food Cost V6.1 workbook.</p>
+</div></section>
 <section id="deliverables"><div class="wrap">
 <header><div class="eyebrow">Deliverables</div><h2>What the proposal promised, and where it is in this dossier</h2><p>Proposal 360-BTR-2026-001 of 23 October 2026, issued under the name THREE SIX ZERO Advisory; the consultancy now operates as NAYISSORIA ADVISORY. Seven steps, checked one by one.</p></header>
 <div class="tablebox"><table><thead><tr><th>Step</th><th>Promised</th><th>Where in this dossier</th><th>Status</th></tr></thead><tbody>
@@ -199,150 +382,6 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
 <tr><td>Opening date</td><td>Target 1 February 2027, subject to progress</td><td>Calendar planned to 14 February 2027</td><td><span class="tag t-w">Decision</span> See the calendar note</td></tr>
 <tr><td>Approval</td><td>Mr Ahmed</td><td>Final decision: Ahmed</td><td>Consistent</td></tr></tbody></table></div>
 </div></section>
-
-<section id="menu"><div class="wrap">
-<header><div class="eyebrow">Concept and menu</div><h2>Twelve French Toasts, seven sweet and five savoury</h2><p>Every product has its own assembly sheet in the SOP manual. Tap a product to open it. Weights are before losses: one 80 g brioche slice plus 40 g of absorbed batter makes a 120 g base.</p></header>
-<div class="menu" id="dishes"></div>
-</div></section>
-
-<section id="sop"><div class="wrap">
-<header><div class="eyebrow">SOP manual</div><h2>The illustrated procedures, page by page</h2><p>86 pages: brioche, batters, sauces and creams, savoury preparations, assembly sheets, storage and controls, and the source annexes in French. Images are reference illustrations, not photos of real trials. Times, temperatures, yields and shelf lives remain to be validated in trials and in the site's HACCP plan.</p></header>
-<div class="chips" id="sopchips"></div>
-<div class="pages" id="sopgrid"></div>
-<div class="row" style="margin-top:22px"><a class="btn ghost" href="https://claude.ai/artifact/Rv7dEYtLaz15A8GpPTAAVD" target="_blank" rel="noopener">Open the standalone manual and its PDF</a></div>
-</div></section>
-
-<section id="capacity"><div class="wrap">
-<header><div class="eyebrow">Production capacity</div><h2>How the volumes size the machines</h2><p>One brioche gives 12 portions. The volume steps below include the 5 % reserve and use the locked machine capacities.</p></header>
-<div class="tablebox"><table><thead><tr><th>Sales</th><th class="n">Portions with reserve</th><th class="n">Brioches</th><th class="n">Dough</th><th>Kneads (30 kg mixer)</th><th class="n">Oven batches (24 moulds)</th><th>Moulds in cycle</th></tr></thead><tbody>
-<tr><td>100</td><td class="n">105</td><td class="n">9</td><td class="n">9.6 kg</td><td>1 × 9.6 kg (32 %)</td><td class="n">1</td><td>9</td></tr>
-<tr><td>250</td><td class="n">263</td><td class="n">22</td><td class="n">23.5 kg</td><td>1 × 23.5 kg (78 %)</td><td class="n">1</td><td>22</td></tr>
-<tr><td>500</td><td class="n">525</td><td class="n">44</td><td class="n">46.95 kg</td><td>2 × 23.5 kg (78 %)</td><td class="n">2</td><td>44</td></tr>
-<tr><td>700</td><td class="n">735</td><td class="n">62</td><td class="n">66.16 kg</td><td>3 × 22.05 kg (73 %)</td><td class="n">3</td><td>62 (60 in the proofer, 2 on the second cycle)</td></tr></tbody></table></div>
-<p class="small" style="margin-top:10px">Step 5 first sized the mixer at 25 kg per knead; the client then chose 30 kg. The number of kneads does not change (3 at peak, 2 at 500 sales) and the load at peak drops from 88 % to 73 %. No effect on the CAPEX.</p>
-<h3 style="margin:34px 0 14px">Consistency checks</h3>
-<div class="tablebox"><table><thead><tr><th>Element</th><th>Value retained</th><th>Source or calculation</th><th>Result</th></tr></thead><tbody id="coh"></tbody></table></div>
-</div></section>
-
-<section id="scenarios"><div class="wrap">
-<header><div class="eyebrow">Scenarios</div><h2>Three ways to run the kitchen, seven layout plans</h2><p>A is pure B2B (brioche bought ready-made). B is fully home-made. C is a hybrid. Choose a plan to see its layout and its cost range. The CAPEX is for equipment only.</p></header>
-<div class="grid g3" style="margin-bottom:26px">
-<div class="card"><span class="tag t-w">Scenario A</span><h3>Pure B2B</h3><p class="small">Plan 6, 39.9 m², with or without a mini cold room. Brioche bought frozen; slicing, soaking, cooking and plating on site.</p></div>
-<div class="card"><span class="tag t-w">Scenario B</span><h3>100 % home-made</h3><p class="small">Plans 1 to 4, 44.9 to 60.5 m². The reference for the technical calculation: mixer, proofer, oven and moulds.</p></div>
-<div class="card"><span class="tag t-w">Scenario C</span><h3>Hybrid</h3><p class="small">Plan 5, 46.6 m².</p></div>
-</div>
-<div class="ov" id="ov"><div class="eyebrow">One layout, all scenarios</div><h3 style="margin:4px 0 6px">The five kitchen limits on the architect's original plan</h3><p class="small" style="margin-bottom:12px">Each coloured line is the boundary between the kitchen (above) and the dining room (below). The central wall is removed in every case. Pick a limit to see it alone, or show all five. No equipment is drawn here: this view is about space only.</p><div class="chips" id="ovchips"></div><div class="planhead"><div class="fig"><svg id="ovsvg" viewBox="0 120 1720 1470" role="img" aria-label="The five kitchen depth limits drawn on the original plan"></svg></div><div class="card" id="ovinfo"></div></div><div class="tw" style="margin-top:14px"><table id="ovtab"><thead><tr><th>Line</th><th>Concept</th><th class="n">Gross area</th><th class="n">Depth</th><th class="n">Left for the hall</th><th>Alcove returned to the hall</th><th>What it allows</th></tr></thead><tbody></tbody></table></div><p class="small" style="margin-top:10px">Total unit area: 123.5 m². "Left for the hall" is that area minus the kitchen, alcove included. At 5.00 m and 5.17 m, a straight wall extends the side wall at 107 cm and the small left alcove stays in the hall. At 5.62 m and 6.50 m the alcove is used by the kitchen: the freezer room extends into it, 107 cm wide.</p></div>
-<div class="chips" id="planchips"></div>
-<div id="planpanel"></div>
-</div></section>
-
-<section id="equipment"><div class="wrap">
-<header><div class="eyebrow">Equipment</div><h2>The equipment list, plan by plan</h2><p>Pick a plan and a price basis. Low prices come from the reference library and KSA suppliers; high prices from European suppliers. The reliability level tells how far each price can be trusted.</p></header>
-<div class="row"><label for="eqplan" class="small">Plan</label><select id="eqplan"></select><div class="chips" style="margin:0" id="eqbasis"></div></div>
-<div class="ld" id="legend"></div>
-<div class="tablebox"><table><thead><tr><th>Item</th><th class="n">Qty</th><th class="n">Unit (SAR)</th><th class="n">Total (SAR)</th><th>Level</th></tr></thead><tbody id="eqbody"></tbody></table></div>
-</div></section>
-
-<section id="capex"><div class="wrap">
-<header><div class="eyebrow">CAPEX in eight categories</div><h2>From about 126,000 to 393,000 SAR, depending on the plan and the price basis</h2><p>All amounts are in SAR excluding VAT, for equipment only. The range runs from low prices (dark bar) to high prices (red extension). No quote has been received.</p></header>
-<div class="range" id="range"></div>
-<div class="axis"><span>0</span><span>100k</span><span>200k</span><span>300k</span><span>400k</span></div>
-<h3 style="margin:38px 0 14px">Low-price CAPEX by category</h3>
-<div class="tablebox"><table id="cattable"></table></div>
-<h3 style="margin:38px 0 14px">How much of each total is backed by a quote or a source</h3>
-<p class="small" style="margin-bottom:12px">Share of the low-price total that rests on an estimate (level C) or on no source (level D). The rest rests on an identified price or a supplier web price.</p>
-<div id="rel" class="range"></div>
-<h3 style="margin:38px 0 14px">What moves the total</h3>
-<div class="tablebox"><table><thead><tr><th>Item</th><th>Retained</th><th>Possible variation</th><th>Effect</th></tr></thead><tbody id="sens"></tbody></table></div>
-<h3 style="margin:38px 0 14px">Scenario A: what depends on the B2B scope</h3>
-<div class="tablebox"><table><tbody id="b2b"></tbody></table></div>
-<h3 style="margin:38px 0 14px">Not in the CAPEX</h3>
-<div class="tablebox"><table><thead><tr><th>Cost</th><th>Content</th><th>Treatment</th></tr></thead><tbody id="out"></tbody></table></div>
-</div></section>
-
-<section id="foodcost"><div class="wrap">
-<header><div class="eyebrow">Food cost</div><h2>What a day of production costs in ingredients</h2><p>Taken from the Step 6 workbook, unchanged. Amounts are in SAR excluding VAT.</p></header>
-<div class="tablebox"><table><thead><tr><th>Daily sales</th><th class="n">Ingredient cost per day</th><th class="n">Brioches</th></tr></thead><tbody>
-<tr><td>100</td><td class="n">621.15</td><td class="n">9</td></tr><tr><td>250</td><td class="n">1,555.83</td><td class="n">22</td></tr><tr><td>500</td><td class="n">3,105.74</td><td class="n">44</td></tr><tr><td>700</td><td class="n">4,352.40</td><td class="n">62</td></tr></tbody></table></div>
-<div class="grid g3" style="margin-top:18px">
-<div class="card"><div class="big">5.92</div><p class="small">SAR of ingredients per portion produced. 4,352.40 ÷ 735 portions made at 700 sales, reserve included. A cost, not a price.</p></div>
-<div class="card"><div class="big">6.21 to 6.22</div><p class="small">SAR of ingredients per portion sold. 4,352.40 ÷ 700 portions sold. The unsold reserve is also a cost. A cost, not a price.</p></div>
-<div class="card"><div class="big">0.8743</div><p class="small">SAR for the brioche slice alone, inside every portion. The sauces and toppings come on top. Not a margin.</p></div></div>
-<p class="small" style="margin-top:12px">The Step 6 workbook uses a 60/40 sales mix; the procedures in Step 3 use 50/50. Both are kept, each in its own scope. This covers scenario B. The B2B brioche price is unknown, so scenarios A and C have no cost per slice yet.</p>
-</div></section>
-
-
-<section id="pricing"><div class="wrap">
-<header><div class="eyebrow">Pricing and sourcing</div><h2>Selling prices, daily ingredients and who to ask</h2><p>Recommended prices come from the Step 6 workbook and are not market-tested. B2B prices are not set: the B2B brioche price is still unknown. Everything here covers the French toast only: beverages are outside the mission and handled by the client. In the consultant's operating experience, beverages usually add about 40 to 45 % on top of food sales; this is an experience figure, not a forecast.</p></header>
-<h3 style="margin-bottom:10px">Cost and recommended price of the 12 products</h3>
-<div class="tablebox"><table><thead><tr><th>Product</th><th>Type</th><th class="n">Ingredient cost</th><th class="n">Price incl. VAT</th><th class="n">Price excl. VAT</th><th class="n">Food cost</th><th class="n">Ingredient margin</th></tr></thead><tbody><tr><td>Salted Caramel</td><td>Sweet</td><td class="n">2.68</td><td class="n">25</td><td class="n">21.74</td><td class="n">12.3 %</td><td class="n">19.06</td></tr><tr><td>Red Berries</td><td>Sweet</td><td class="n">9.30</td><td class="n">40</td><td class="n">34.78</td><td class="n">26.7 %</td><td class="n">25.48</td></tr><tr><td>Pistachio</td><td>Sweet</td><td class="n">7.23</td><td class="n">35</td><td class="n">30.43</td><td class="n">23.8 %</td><td class="n">23.20</td></tr><tr><td>Chocolate Hazelnut</td><td>Sweet</td><td class="n">6.62</td><td class="n">35</td><td class="n">30.43</td><td class="n">21.8 %</td><td class="n">23.81</td></tr><tr><td>Cinnamon</td><td>Sweet</td><td class="n">4.89</td><td class="n">25</td><td class="n">21.74</td><td class="n">22.5 %</td><td class="n">16.85</td></tr><tr><td>Avocado &amp; Egg</td><td>Savoury</td><td class="n">5.25</td><td class="n">30</td><td class="n">26.09</td><td class="n">20.1 %</td><td class="n">20.84</td></tr><tr><td>Chicken &amp; Cheese</td><td>Savoury</td><td class="n">5.11</td><td class="n">30</td><td class="n">26.09</td><td class="n">19.6 %</td><td class="n">20.98</td></tr><tr><td>Mushroom &amp; Cheese</td><td>Savoury</td><td class="n">7.59</td><td class="n">35</td><td class="n">30.43</td><td class="n">24.9 %</td><td class="n">22.85</td></tr><tr><td>Shakshuka</td><td>Savoury</td><td class="n">6.61</td><td class="n">30</td><td class="n">26.09</td><td class="n">25.3 %</td><td class="n">19.47</td></tr><tr><td>Turkey &amp; Cheese</td><td>Savoury</td><td class="n">5.28</td><td class="n">30</td><td class="n">26.09</td><td class="n">20.2 %</td><td class="n">20.81</td></tr><tr><td>Saudi Dates &amp; Tahini</td><td>Sweet</td><td class="n">5.17</td><td class="n">30</td><td class="n">26.09</td><td class="n">19.8 %</td><td class="n">20.91</td></tr><tr><td>Saudi Coffee &amp; Cardamom</td><td>Sweet</td><td class="n">5.21</td><td class="n">30</td><td class="n">26.09</td><td class="n">20.0 %</td><td class="n">20.87</td></tr><tr><td><b>Average, weighted by the 500-portion mix</b></td><td></td><td class="n"><b>5.91</b></td><td class="n"><b>31.26</b></td><td class="n"><b>27.18</b></td><td class="n"><b>21.7 %</b></td><td class="n"><b>21.27</b></td></tr></tbody></table></div>
-<p class="small" style="margin:10px 0 26px">From the Step 6 workbook (V6.1). Food cost = ingredient cost ÷ price excl. VAT (VAT 15 %). Prices are recommended and indicative; the final decision is the client's. Ingredient margin only: packaging, wages, rent, energy and service losses are not counted. Several prices are public retail prices converted to excl. VAT, so supplier quotes will move the figures. At the weighted average the food cost is 21.7 %, just above the 20 % B2C standard; Red Berries (26.7 %), Shakshuka (25.3 %), Mushroom &amp; Cheese (24.9 %) and Pistachio (23.8 %) are the highest. All amounts in SAR.</p>
-<h3 style="margin-bottom:10px">Cross-check: what a target food cost would give</h3>
-<div class="tablebox"><table><thead><tr><th>Target food cost</th><th class="n">Price excl. VAT</th><th class="n">Price incl. VAT (15 %)</th></tr></thead><tbody>
-<tr><td>20 %</td><td class="n">31.05</td><td class="n">35.71</td></tr><tr><td>25 %</td><td class="n">24.84</td><td class="n">28.57</td></tr><tr><td>30 %</td><td class="n">20.70</td><td class="n">23.81</td></tr></tbody></table></div>
-<p class="small" style="margin:10px 0 26px">Average portion: 6.21 SAR of ingredients per portion sold. The B2B price is not set: the B2B brioche price is still unknown, so no B2B selling price is shown.</p>
-<h3 style="margin-bottom:10px">Ingredients per day at 700 sales</h3>
-<div class="tablebox"><table><thead><tr><th>Ingredient</th><th class="n">Brioche (62 loaves)</th><th class="n">Sweet batter (maximum)</th><th class="n">Total per day</th></tr></thead><tbody>
-<tr><td>T55 flour</td><td class="n">33.3 kg</td><td class="n">–</td><td class="n">33.3 kg</td></tr>
-<tr><td>Whole milk</td><td class="n">10.0 kg</td><td class="n">14.7 kg</td><td class="n">24.7 kg</td></tr>
-<tr><td>Whole eggs</td><td class="n">10.0 kg</td><td class="n">7.35 kg</td><td class="n">17.3 kg (about 315 eggs)</td></tr>
-<tr><td>Butter</td><td class="n">8.3 kg</td><td class="n">–</td><td class="n">8.3 kg</td></tr>
-<tr><td>Cream 35 %</td><td class="n">–</td><td class="n">5.9 kg</td><td class="n">5.9 kg</td></tr>
-<tr><td>Sugar</td><td class="n">3.3 kg</td><td class="n">1.3 kg</td><td class="n">4.7 kg</td></tr></tbody></table></div>
-<p class="small" style="margin:10px 0 26px">From the brioche formula (page 7) and the universal sweet batter (page 12). The sweet batter column assumes all 735 portions are sweet, so it is an upper bound; with the 60/40 mix it is lower. Toppings, sauces and savoury items are not included. In the typical week (500 on weekdays, 700 at weekends) the flour is about 185 kg, 7 to 8 bags of 25 kg.</p>
-<h3 style="margin:30px 0 10px">Supplier contacts in Riyadh</h3>
-<div class="tablebox"><table><thead><tr><th>Supplier</th><th>Products and equipment</th><th>Phone / WhatsApp</th><th>E-mail</th><th>Site</th></tr></thead><tbody><tr><td><b>Food Choice KSA</b></td><td>Ingredients: T55 flour, unsalted butter, Candia cream, cheddar, mozzarella, chicken, smoked turkey, raspberries and raspberry purée</td><td>+966 11 473 8022; WhatsApp +966 55 985 8257</td><td><a href="mailto:support@foodchoice-ksa.com">support@foodchoice-ksa.com</a></td><td><a href="https://foodchoice-ksa.com/contact/" target="_blank" rel="noopener">website</a></td></tr><tr><td><b>Freshvery</b></td><td>Ingredients: fresh fruit, vegetables and herbs (avocados, lemons, onions, peppers, parsley), tomato paste, brown sugar</td><td>+966 55 066 0665</td><td><a href="mailto:freshvery@freshvery.com">freshvery@freshvery.com</a></td><td><a href="https://freshvery.com/contact" target="_blank" rel="noopener">website</a></td></tr><tr><td><b>Orient Provision (OPTC)</b></td><td>Ingredients: spices and dry goods (cinnamon, garlic powder, cumin, sweet paprika, black pepper, Freshly olive oil)</td><td>+966 920 003 250</td><td><a href="mailto:info@optcl.net">info@optcl.net</a></td><td><a href="https://optcl.net/contact-us/" target="_blank" rel="noopener">website</a></td></tr><tr><td><b>Bidfood KSA</b></td><td>Ingredients: Valrhona couverture chocolate, including Jivara milk and Opalys white</td><td>+966 920 023 663</td><td><a href="mailto:marketing.ksa@bidfoodme.com">marketing.ksa@bidfoodme.com</a></td><td><a href="https://www.bidfoodme.com/get-in-touch" target="_blank" rel="noopener">website</a></td></tr><tr><td><b>Bano Puratos KSA</b></td><td>Ingredients: bakery and pastry ingredients, including Foger Vanilla Plus flavouring</td><td>+966 920 018 448</td><td><a href="mailto:mramzi@banopuratos.com">mramzi@banopuratos.com</a></td><td><a href="https://ksa.banopuratos.com/contactus" target="_blank" rel="noopener">website</a></td></tr><tr><td><b>Mawaduna</b></td><td>Ingredients: pastry ingredients, including glazing pectin and Delipaste hazelnut and pistachio flavour pastes</td><td>+966 11 478 7288; +966 54 033 2488</td><td><a href="mailto:info@mawaduna.com">info@mawaduna.com</a></td><td><a href="https://mawaduna.com/contact/" target="_blank" rel="noopener">website</a></td></tr><tr><td><b>AWANI HORECA</b></td><td>Equipment: pizzeria and snack equipment (refrigerated table, marble table, cooking plate, peels, dough and GN bins, crêpe maker, waffle maker, hot chocolate machine)</td><td>050 511 8615</td><td>–</td><td>–</td></tr><tr><td><b>Nardi</b></td><td>Equipment</td><td>055 656 9618</td><td>–</td><td>–</td></tr><tr><td><b>Antachco</b></td><td>Packaging</td><td>053 242 5789</td><td>–</td><td>–</td></tr><tr><td><b>Futur &amp; Present</b></td><td>Boxes and packaging</td><td>050 059 2579</td><td>–</td><td>–</td></tr><tr><td><b>Al Raqtan Company</b></td><td>Equipment, named by the client in the questionnaire</td><td>–</td><td>–</td><td>–</td></tr><tr><td><b>Kawader Al Jazeera Company</b></td><td>Equipment, named by the client in the questionnaire</td><td>–</td><td>–</td><td>–</td></tr></tbody></table></div>
-<p class="small" style="margin:10px 0 22px">Contacts only, supplied by the consultant. Price lists, quotes and negotiation are for the client to obtain. The Excel version is in Downloads.</p>
-<div class="grid g2">
-<div class="card"><h3>Supplier categories to consult</h3><ul><li>Mill: T55 flour</li><li>Dairy: milk, cream, butter</li><li>Eggs, including pasteurised liquid eggs for the poached egg</li><li>Sugar, vanilla, improver (confirm soy)</li><li>Packaging: kraft boxes, sealed bags, sauce pots</li><li>Frozen brioche, for scenarios A and C</li><li>Equipment named by the client: Al Raqtan Company and Kawader Al Jazeera Company (no quote yet)</li></ul><p class="small" style="margin-top:12px">Names, quotes and delivery terms are collected with the client.</p></div>
-<div class="card"><h3>Competitors to benchmark</h3><ul><li><a href="https://www.factmagazines.com/saudi-arabia/riyadh/food/londons-french-toast-cafe-crome-is-opening-in-riyadh-park-mall" target="_blank" rel="noopener">Crome London</a>, French toast café, Riyadh Park Mall</li><li><a href="https://www.factmagazines.com/saudi-arabia/riyadh-saudi-arabia/food-riyadh-saudi-arabia/french-toast-in-riyadh-inside-the-new-all-day-breakfast-restaurant" target="_blank" rel="noopener">French Toast &amp; Co</a>, An Nada</li></ul><p class="small" style="margin-top:12px">No prices are published for either. Their menus and prices must be collected on site or on the delivery apps. Nothing is assumed here.</p></div></div>
-</div></section>
-
-<section id="technical"><div class="wrap">
-<header><div class="eyebrow">Technical requirements</div><h2>What the designer needs for power, water, drainage and extraction</h2><p>Indicative values for the equipment on each plan. Figures marked as from the operator's own MEP schedule use real manufacturer data (Bongard); the others are estimates. Every value must be confirmed on the supplier's data sheet.</p></header>
-<div class="tablebox"><table><thead><tr><th>Plan</th><th class="n">Connected load</th><th class="n">of which 3-phase</th><th class="n">Likely demand (60 to 70 %)</th><th class="n">Water points</th></tr></thead><tbody>
-<tr><td>Plan 6 · B2B</td><td class="n">≈ 30 kW</td><td class="n">≈ 17 kW</td><td class="n">18 to 21 kW</td><td class="n">4</td></tr>
-<tr><td>Plan 6 · with mini cold room</td><td class="n">≈ 34 kW</td><td class="n">≈ 21 kW</td><td class="n">20 to 23 kW</td><td class="n">4</td></tr>
-<tr><td>Plan 1 · home-made</td><td class="n">≈ 58 kW</td><td class="n">≈ 40 kW</td><td class="n">35 to 40 kW</td><td class="n">6</td></tr>
-<tr><td>Plan 2 · home-made</td><td class="n">≈ 58 kW</td><td class="n">≈ 40 kW</td><td class="n">35 to 40 kW</td><td class="n">6</td></tr>
-<tr><td>Plan 3 · home-made</td><td class="n">≈ 61 kW</td><td class="n">≈ 44 kW</td><td class="n">36 to 42 kW</td><td class="n">6</td></tr>
-<tr><td>Plan 4 · home-made</td><td class="n">≈ 66 kW</td><td class="n">≈ 49 kW</td><td class="n">39 to 46 kW</td><td class="n">6</td></tr>
-<tr><td>Plan 5 · hybrid</td><td class="n">≈ 53 kW</td><td class="n">≈ 40 kW</td><td class="n">32 to 37 kW</td><td class="n">6</td></tr></tbody></table></div>
-<p class="small" style="margin:10px 0 22px">Equipment only. Not counted: hood and make-up air fans, air conditioning, lighting, the bar. Connection and extraction costs stay outside the CAPEX.</p>
-<div class="grid g2">
-<div class="card"><h3>Heavy loads (operator's MEP schedule)</h3><ul><li>Convection oven Krystal+ 46.9: 18.6 kW, 3-phase; water 1/2"; drain 3"</li><li>Hood-type dishwasher: 11.9 kW, 3-phase</li><li>Proofer: 1.3 kW, single-phase; water 3/8"; drain 3"</li><li>Spiral mixer for 30 kg of dough: about 2.6 kW, 3-phase (model not locked)</li><li>Cold-room condensate drain: 2"</li></ul></div>
-<div class="card"><h3>Water, drainage, extraction</h3><ul><li>Hot water at 60 °C minimum for the dishwasher; a commercial water heater</li><li>4 water points in B2B; 6 with the oven and the proofer</li><li>Floor drains and a grease trap, which is mandatory</li><li>A hood over the cooking line and one over the dishwasher; for the oven, a hood that is excluded from the current price</li></ul></div>
-<div class="card"><h3>Open choices</h3><ul><li>Electric plancha retained as the base (counted at 5 kW). The client may switch to gas later: Civil Defence rules apply (cylinders outside, gas valve linked to the extraction) and the electrical load drops.</li><li>Voltage: the schedule lists 400 V and 230 V. Saudi supply is 60 Hz, so the supplier's matching version must be specified.</li><li>Check the supply capacity with the electricity company early: a new supply can add 4 to 8 weeks.</li></ul></div>
-<div class="card"><h3>Storage sizing</h3><p class="small" style="margin-bottom:10px">Rule in the SOP manual: two peak days of frozen brioche, 124 loaves of 3 L each.</p><ul><li>1 day (62 loaves): 370 to 470 L, a 1-door freezer</li><li>2 days (124): 740 to 930 L, a 2-door freezer</li><li>3 days (186): 1,100 to 1,400 L, a full 2-door freezer or a walk-in freezer</li><li>Fresh dairy and eggs: about 56 kg a day at 700; two days fit one 1-door refrigerator</li></ul><p class="small" style="margin-top:10px">This matches the plans: Plan 1 one day, Plans 2 and 5 two days, Plans 3 and 4 three days or more. Cabinet volumes are catalogue orders of magnitude.</p></div></div>
-</div></section>
-
-<section id="operations"><div class="wrap">
-<header><div class="eyebrow">Operating framework</div><h2>Receiving, storage, cleaning, stock, waste, food safety</h2><p>This completes the SOP manual, which covers production and key controls. Temperatures reuse the manual's key-controls page and remain proposals to validate in the site's HACCP plan. The exact local rules (Balady, SFDA) must be checked against the official texts.</p></header>
-<details open><summary>Receiving</summary><div><ul><li>Deliveries outside service hours; check the vehicle, the packaging and the dates.</li><li>Probe temperature: chilled up to 5 °C, frozen −18 °C or colder (proposed). Refuse anything thawed, damaged or out of date.</li><li>Frozen brioche (scenarios A and C): checked at every delivery, which is every second day.</li></ul></div></details>
-<details><summary>Storage and traceability</summary><div><ul><li>First in, first out. Label: product, batch, manufacture date, use-by date, allergens, operator.</li><li>Batters, creams and sensitive sauces at 4 °C or below; frozen at −18 °C or below.</li><li>Record the refrigerator temperature at every service opening.</li></ul></div></details>
-<details><summary>Cleaning and sanitation</summary><div><ul><li>A written plan per zone: frequency, product, dilution, person responsible.</li><li>Clean, rinse, disinfect, rinse. Colour-coded cloths. Signed visual check at the end of service.</li><li>Hood and grease filters on a fixed cleaning schedule.</li></ul></div></details>
-<details><summary>Stock management</summary><div><ul><li>Daily count of sensitive items (eggs, milk, cream, butter); weekly for dry goods.</li><li>A reorder threshold per product. Orders based on the next day's volume plus the 5 % reserve already locked.</li></ul></div></details>
-<details><summary>Waste</summary><div><ul><li>Sort organic waste, packaging and used oil. Pedal bins are already in the CAPEX.</li><li>Remove waste at the end of each service. Weigh losses if actual food cost is to be tracked.</li></ul></div></details>
-<details><summary>Food safety and HACCP</summary><div><ul><li>French toast core at 74 °C or above. Hot holding at 63 °C or above. Batter tray changed every 2 hours.</li><li>Cooked preparations cooled to 10 °C or below within 2 hours, then 4 °C or below.</li><li>Poached egg with a runny yolk: pasteurised eggs, to be validated in the HACCP plan before opening.</li><li>No shelf life is validated yet. Each must come from a trial, including freezing and thawing.</li></ul></div></details>
-<details><summary>Staff and health certificates</summary><div><ul><li>A health certificate and a food-safety course accredited by the SFDA for every employee.</li><li>Clean uniform, hand washing, gloves changed between products.</li></ul></div></details>
-<details><summary>Allergens and menu labelling</summary><div><ul><li>Since July 2025 the SFDA requires menus to show calories, fat, sugar, sodium, caffeine and 14 allergens.</li><li>The brioche formula declares gluten, milk and eggs. Soy in the improver is still to be confirmed with the supplier.</li></ul></div></details>
-<h3 style="margin:30px 0 10px">HACCP control sheets</h3>
-<div class="tablebox"><table><thead><tr><th>Step</th><th>Hazard</th><th>Critical limit (proposed)</th><th>Monitoring</th><th>Corrective action</th><th>Record</th></tr></thead><tbody><tr><td>Receiving: chilled goods</td><td>Growth of bacteria if the cold chain is broken</td><td>Chilled ≤ 5 °C at the core; sound packaging; in date</td><td>Probe every delivery, check date and vehicle</td><td>Refuse or quarantine the goods; call the supplier</td><td>Receiving log</td></tr><tr><td>Receiving: frozen goods (brioche, scenarios A and C)</td><td>Thawing and refreezing</td><td>Frozen ≤ −18 °C; no ice crystals or thaw marks</td><td>Probe every delivery (every second day)</td><td>Refuse if thawed; never refreeze</td><td>Receiving log</td></tr><tr><td>Cold storage</td><td>Bacterial growth in eggs, milk, cream, batter</td><td>Fridge ≤ 4 °C</td><td>Read at opening, mid-service and closing</td><td>Move goods to another unit; discard if above 4 °C for over 2 h; call maintenance</td><td>Temperature log</td></tr><tr><td>Frozen storage</td><td>Quality loss, thaw cycles</td><td>Freezer ≤ −18 °C</td><td>Read at opening and closing</td><td>Check door and defrost; call maintenance; assess goods</td><td>Temperature log</td></tr><tr><td>Sweet batter</td><td>Bacteria in the milk, egg and cream mix</td><td>Batter ≤ 4 °C; tray changed every 2 h</td><td>Probe at preparation and at each tray change</td><td>Discard batter above 4 °C for over 2 h or older than the limit</td><td>Batter log</td></tr><tr><td>Cooking on the plancha</td><td>Survival of bacteria in egg-based product</td><td>Core ≥ 74 °C</td><td>Probe one slice per batch</td><td>Continue cooking, re-probe; discard if the core cannot reach 74 °C</td><td>Cooking log</td></tr><tr><td>Hot holding</td><td>Growth in cooked product</td><td>≥ 63 °C</td><td>Probe every hour</td><td>Reheat to 74 °C once, or discard after the holding time limit</td><td>Hot-holding log</td></tr><tr><td>Cooling of cooked preparations (sauces, toppings)</td><td>Growth during slow cooling</td><td>≤ 10 °C within 2 h, then ≤ 4 °C</td><td>Probe at 2 h and at storage</td><td>Discard if 10 °C not reached within 2 h</td><td>Cooling log</td></tr><tr><td>Poached egg with runny yolk</td><td>Salmonella</td><td>Pasteurised eggs only</td><td>Check the label at receiving</td><td>Use fully cooked egg or discard</td><td>Receiving log</td></tr><tr><td>Allergens</td><td>Cross-contact; wrong information to the guest</td><td>Gluten, milk, eggs declared; soy to be confirmed with the improver supplier</td><td>Check labels at receiving; separate utensils and cloths</td><td>Stop service of the item; correct the menu</td><td>Allergen matrix</td></tr><tr><td>Cleaning and disinfection</td><td>Residual contamination</td><td>Written plan followed; surfaces visibly clean</td><td>Signed check at the end of service</td><td>Re-clean; retrain</td><td>Cleaning log</td></tr><tr><td>Personnel hygiene</td><td>Contamination by hands and clothes</td><td>Health certificate valid; hand washing; clean uniform</td><td>Daily visual check by the shift lead</td><td>Send home if ill; retrain</td><td>Staff file</td></tr></tbody></table></div>
-<p class="small" style="margin:10px 0 0">Proposals taken from the SOP manual key controls. The blank logs (receiving, temperature, cooking, cooling, cleaning, maintenance, waste, stock) are in the downloadable operations workbook, <a href="#downloads">see Downloads</a>.</p>
-<p class="small" style="margin-top:14px">Sources: <a href="https://www.foodics.com/calorie-counts-on-menus-new-sfda-regulations-for-restaurants/" target="_blank" rel="noopener">Foodics, SFDA menu rules</a>; <a href="https://www.foodics.com/a-complete-guide-to-restaurant-licenses-permits-in-saudi-arabia/" target="_blank" rel="noopener">Foodics, restaurant licences</a>; <a href="https://daranan.pages.dev/blog/restaurant-mep-requirements-riyadh/" target="_blank" rel="noopener">Riyadh restaurant MEP requirements</a>.</p>
-</div></section>
-
-<section id="calendar"><div class="wrap">
-<header><div class="eyebrow">Calendar</div><h2>Reverse planning to a mid-February 2027 opening</h2><p>The dossier is handed over on 11 November 2026, so the plan starts from decisions, not from study steps. Weeks start on Sunday. Opening is set on Sunday 14 February 2027. The client target in the questionnaire is 1 February; this plan reaches 14 February. To open on 1 February, the scenario would have to be chosen within days and the equipment ordered by about 30 November with a lead time of 6 weeks or less. This is a planning assumption, not a guarantee: durations outside the mission (permits, works, hiring, training) are not controlled by NAYISSORIA ADVISORY.</p></header>
-<div class="chips" id="gtchips"></div>
-<div class="tablebox"><div id="gt" class="gt"></div></div>
-<div class="gtleg"><span><i style="background:#a8232c;outline:2px solid #a8232c;outline-offset:1px"></i>Critical path</span><span><i style="background:#888;opacity:.6"></i>Hatched: assumption to confirm</span></div>
-<div class="grid g3" style="margin-top:8px">
-<div class="card"><h3>Critical path</h3><ul><li>Scenario choice by 26 November</li><li>Equipment order by 3 December</li><li>Electrical supply confirmed early</li></ul></div>
-<div class="card"><h3>Why it is tight</h3><p class="small">Equipment lead time is assumed at 6 to 8 weeks and is not confirmed. If it exceeds 8 weeks, the installation moves past January and February becomes hard.</p></div>
-<div class="card"><h3>Gains compared with the proposal</h3><p class="small">The study is finished, so the 6 to 8 weeks of mission no longer sit on the critical path. Decisions and orders start in week 1.</p></div></div>
-</div></section>
-
 <section id="downloads"><div class="wrap">
 <header><div class="eyebrow">Downloads</div><h2>Files to share with the designer, the chef and the contractor</h2><p>Each file opens in Excel or as an image. The SOP manual and the layouts can be forwarded as they are.</p></header>
 <div class="grid g2">
@@ -355,34 +394,6 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
 <div class="card"><h3>Layouts (images)</h3><div class="row" id="dllay" style="flex-direction:column;align-items:flex-start;gap:10px"></div></div></div>
 <p class="small" id="dlmsg2" role="status" style="margin-top:12px"></p>
 <p class="small">SOP manual and PDF: <a href="https://claude.ai/artifact/Rv7dEYtLaz15A8GpPTAAVD" target="_blank" rel="noopener">https://claude.ai/artifact/Rv7dEYtLaz15A8GpPTAAVD</a></p>
-</div></section>
-
-<section id="open"><div class="wrap">
-<header><div class="eyebrow">Open points</div><h2>What still blocks, and what does not</h2></header>
-<h3 style="margin-bottom:14px">Blocking decisions</h3>
-<div class="grid g3" id="bloq"></div>
-<h3 style="margin:34px 0 14px">Not blocking</h3>
-<div class="card"><ul id="nonbloq"></ul></div>
-<h3 style="margin:34px 0 14px">Hypotheses register</h3>
-<div class="tablebox"><table><thead><tr><th>No.</th><th>Hypothesis</th><th>Source</th><th>If wrong</th></tr></thead><tbody id="hyp"></tbody></table></div>
-<h3 style="margin:34px 0 14px">What changed against the first study</h3>
-<div class="tablebox"><table><thead><tr><th>Item</th><th>Before</th><th>Now</th><th>Effect</th></tr></thead><tbody id="chg"></tbody></table></div>
-<h3 style="margin:34px 0 14px">Notes on the source documents</h3>
-<div class="tablebox"><table><thead><tr><th>Point</th><th>Where</th><th>Treatment</th></tr></thead><tbody id="flags"></tbody></table></div>
-</div></section>
-
-<section id="next"><div class="wrap">
-<header><div class="eyebrow">Next steps</div><h2>What happens after this dossier</h2></header>
-<ol style="display:grid;gap:10px;padding-left:20px;max-width:46em;margin:0 0 30px">
-<li>Choose the scenario (A, B or C) and the kitchen and dining layout, by 26 November. Anas and Ahmed.</li>
-<li>Survey the site: power, three-phase, water, drainage, extraction duct. Check the electricity supply capacity at once.</li>
-<li>Consult suppliers for the B2B brioche: specification, price, delivery. Needed to compare A and C with B.</li>
-<li>Request quotes for the mixer, proofer, oven hood, cold rooms and the other level C and D items, and place the orders by 3 December.</li>
-<li>Run the trials already planned: slicer thickness on a Pullman loaf, tray and mould fit in the proofer, shelf life, freezing and thawing.</li>
-<li>Follow the calendar above to a 14 February 2027 opening.</li></ol>
-<div class="row"><button class="btn" id="dlx" type="button">Download the CAPEX workbook (Excel)</button><a class="btn ghost" href="https://claude.ai/artifact/Rv7dEYtLaz15A8GpPTAAVD" target="_blank" rel="noopener">Open the SOP manual and its PDF</a></div>
-<p class="small" id="dlmsg" role="status"></p>
-<p class="small" style="margin-top:6px">The workbook holds the lines for every plan at low and high prices, with formulas, the B2B conditional equipment, the costs outside the CAPEX, the hypotheses and a checks sheet. It is separate from the Food Cost V6.1 workbook.</p>
 </div></section>
 </main>
 <footer class="bleed"><div class="wrap"><span>NAYISSORIA ADVISORY · 360</span><span>BTR French Toast Café · Confidential</span><span>11 November 2026</span></div></footer>
